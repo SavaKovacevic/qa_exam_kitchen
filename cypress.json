@@ -1,0 +1,7 @@
+{
+    "baseUrl": "http://10.15.1.204:3000/",
+    "video": false,
+    "watchForFileChanges": false,
+    "waitForAnimations": true,
+    "chromeWebSecurity": false
+}

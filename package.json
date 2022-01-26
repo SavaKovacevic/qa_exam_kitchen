@@ -1,0 +1,16 @@
+{
+  "name": "qa-exam-kitchen",
+  "version": "1.0.0",
+  "description": "itekako qa testing automation",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.3.1",
+    "prettier": "^2.5.1"
+  }
+}
