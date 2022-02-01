@@ -14,7 +14,7 @@ describe('Problem 2 Menu', () => {
 
         // MENU ITEMS
         const indexes = [0, 0, 1, 2, -1, -2]
-        for(let i = 0; i < 6; i++){
+        for(let i = 0; i < indexes.length; i++){
             cy.get('.menus .text .btn').eq(indexes[i]).click().then(() => {
                 check.selectListItem(i)
                 check.addToArray(prices, indexes[i])
