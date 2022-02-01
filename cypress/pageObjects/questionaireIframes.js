@@ -11,18 +11,6 @@ class iframes {
         .its('body').should('not.be.undefined')
         .then(cy.wrap)
     }
-
-    // const getIframeBody1 = () => {
-    //     return getIframeDocument1()
-    //     .its('body').should('not.be.undefined')
-    //     .then(cy.wrap)
-    //   }
-
-    // const getIframeDocument2 = () => {
-    //     return cy
-    //     .get('#third')
-    //     .its('0.contentDocument').should('exist')
-    //   }
 }
 
 export default iframes

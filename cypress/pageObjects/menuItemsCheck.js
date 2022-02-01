@@ -1,8 +1,8 @@
 class menu {
 
     // WAIT FOR LIST ITEM TO APPEAR
-    selectListItem(index, content) {
-        return cy.get('#listaItema li:eq(' + index + ')', {timeout: 10000}).should('be.visible').and('contain', content)
+    selectListItem(index) {
+        return cy.get('#listaItema li:eq(' + index + ')', {timeout: 10000}).should('be.visible')
     }
     
     // ADD ITEM PRICE TO ARRAY
